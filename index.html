@@ -113,6 +113,9 @@
   .plan.member .badge{position:absolute;top:-12px;right:24px;background:var(--blue);color:#fff;font-size:12px;font-weight:800;padding:4px 10px;border-radius:999px}
   .plan h3{font-family:Anton,sans-serif;font-weight:400;font-size:28px;margin:0 0 4px;text-transform:uppercase}
   .plan .sub{color:var(--mute);margin:0 0 22px;font-size:15px}
+  .plan .price{margin:6px 0 4px;display:flex;align-items:baseline;gap:8px}
+  .plan .price b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:44px;line-height:1}
+  .plan .price span{color:var(--mute);font-size:15px}
   .plan ul{list-style:none;padding:0;margin:0 0 28px}
   .plan li{padding:8px 0 8px 30px;position:relative;font-size:15.5px;border-top:1px solid rgba(42,51,67,.6)}
   .plan li::before{content:"";position:absolute;left:2px;top:13px;width:16px;height:16px;border-radius:50%;background:var(--good) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.5l2.5 2.5L12 5.5' stroke='%230b0e14' stroke-width='2.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/16px no-repeat}
@@ -325,6 +328,7 @@
       <div class="plans">
         <div class="plan">
           <h3>Free preview</h3>
+          <p class="price"><b>$0</b></p>
           <p class="sub">See how it works before you join.</p>
           <ul>
             <li>Today's hit list for 1 game</li>
@@ -338,6 +342,7 @@
         <div class="plan member">
           <span class="badge">FULL ACCESS</span>
           <h3>Member</h3>
+          <p class="price"><b>$8.99</b> <span>USD / week</span></p>
           <p class="sub">The whole slate, every morning.</p>
           <ul>
             <li>Hit lists for every game</li>
@@ -389,7 +394,7 @@
     <div class="wrap">
       <div class="box">
         <h2 class="display">Tonight's slate is already done</h2>
-        <p>Get the hit lists, prop edges and stats for every game before tip-off.</p>
+        <p>Get the hit lists, prop edges and stats for every game before tip-off, for $8.99 a week.</p>
         <a class="btn btn-primary js-buy" href="#access">Get NBA Cheat Sheets</a>
       </div>
     </div>
